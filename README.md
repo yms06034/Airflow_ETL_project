@@ -1,4 +1,4 @@
-# Udacity Data Engineer (ETL) Project: 
+# Airflow Data Engineer (ETL) Project: 
 ## 목표
 이번 프로젝트의 목적은 다양한 도시에 대한 온도, 인구 및 이민 통계와 함꼐 DA, DS, 다른 연구원들에게 제공할만한 ETL 파이프라인을 구축하는 것입니다.
 
