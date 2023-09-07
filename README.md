@@ -54,9 +54,6 @@
 | female_population | int4 | female population numbers by city |
 | total_population | int4 |  total population numbers by city |
 
-### Reasons for the model
-I settled on the above model since I found that the common data field from all the various datasets is city and with that I could be able to extrapolate the other data fields that I required for the data pipeline. With the fact and dimension tables, I utilized the star schema which is more suitable and optimized for OLAP (Online Analytical Processing) operations.
-
 ## Tools and Technologies used
 - __Apache Spark__ - Big data || csv file의 데이터를 DataFrame으로 처리하고 json으로 변환하는 곳에 사용하였습니다. DataSet의 열을 Table에 필요한 열에 매핑하였습니다.
 - __Apache Airflow__ - Spark에 처리된 json file을 로컬파일에서 S3로 업로드하고, 데이터 확인 및 dimension 테이블 생성하고 S3 파일을 Redshift 스테이징 테이블에 복사한 다음 ETL을 수행하여 데이터를 테이블에 로드하였습니다.
