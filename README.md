@@ -67,4 +67,4 @@ I settled on the above model since I found that the common data field from all t
 #### File Upload DAG
 ![capstone_dag](img/file_upload_dag.png "File Upload DAG")
 #### Capstone DAG
-![capstone_dag](img/capstone_dag.png "Capstone DAG")
+![capstone_dag](img/load_transform_in_redshift_dag.png "Capstone DAG")
