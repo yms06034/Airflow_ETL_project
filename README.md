@@ -66,5 +66,5 @@ I settled on the above model since I found that the common data field from all t
 ### DAGs Airflow Graph View Representation
 #### File Upload DAG
 ![capstone_dag](img/file_upload_dag.png "File Upload DAG")
-#### Capstone DAG
+#### Load Transform in Redshift DAG
 ![capstone_dag](img/load_transform_in_redshift_dag.png "Capstone DAG")
