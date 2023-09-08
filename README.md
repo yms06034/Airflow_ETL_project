@@ -62,6 +62,6 @@
 
 ### DAGs Airflow Graph View Representation
 #### File Upload DAG
-![capstone_dag](img/file_upload_dag.png "File Upload DAG")
+![dag](img/file_upload_dag.png "File Upload DAG")
 #### Load Transform in Redshift DAG
-![capstone_dag](img/load_transform_in_redshift_dag.png "Capstone DAG")
+![dag](img/load_transform_in_redshift_dag.png "DAG")
